@@ -137,7 +137,7 @@
         //console.log(rec)
         if (targetZip == rec.Zip) {
           html = '<div><strong> Demographics in 2013 </strong></div>' +
-            '<div> Media Income: ' + rec["Median Income"] + '</div>' +
+            '<div> Median Income: ' + rec["Median Income"] + '</div>' +
             '<div> Home Owners: '+ rec["Home Owners"] + '</div>' +
             '<div> Renters: ' + rec["Renters"] + '</div>'
         }
